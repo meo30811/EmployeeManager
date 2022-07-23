@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="EmployeeDataClass">
+  <DataContextMoniker Name="/EmployeeDataClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2657eafd-fa3c-4061-9652-ff6f78f2c151" absoluteBounds="5, 1.125, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/EmployeeDataClassDataContext/tblEmployee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ee3d1357-b598-45e3-8d2b-c7061cc1aa7d" absoluteBounds="5.015, 1.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cdeef745-2d42-4d32-b272-36739bfc648a" absoluteBounds="7.25, 0.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/EmployeeDataClassDataContext/tblDepartment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dce8678b-f367-4d90-9f7d-fc1cbd302aa5" absoluteBounds="7.265, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 1.59699625651042); (7 : 1.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/EmployeeDataClassDataContext/tblDepartment/tblDepartment_tblEmployee" />
+      <nodes>
+        <classShapeMoniker Id="cdeef745-2d42-4d32-b272-36739bfc648a" />
+        <classShapeMoniker Id="2657eafd-fa3c-4061-9652-ff6f78f2c151" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
